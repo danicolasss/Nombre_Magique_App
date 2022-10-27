@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nombre_Magique.Views.WinPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+            <Image   Source="win.png" HeightRequest="225" />
+            <Label 
+                Margin="0,25,0,0"
+                Text="Bravo !" 
+                FontSize="50" 
+                TextColor="Black" 
+                HorizontalOptions="Center"/>
+            <Label 
+                x:Name="nbMagiqueWinPage"
+                FontSize="20" 
+                FontAttributes="Italic" 
+                TextColor="Black" 
+                HorizontalOptions="Center" 
+                Text=""/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
